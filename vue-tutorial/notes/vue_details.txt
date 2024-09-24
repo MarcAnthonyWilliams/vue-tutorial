@@ -1,0 +1,22 @@
+Vue Properties:
+    Computed:
+        Purpose: Derive and cache values based on data or other computed properties.
+        Definition: computed properties are reactive and are only re-evaluated when their dependencies (i.e., data values) change. It is useful for deriving values based on existing state without manually updating them.
+        Use case: Compute values that depend on other reactive state without side effects.
+    Data: 
+       Purpose: Holds the reactive state of the component
+       Definition: data is a function that returns an object containing key-value pairs representing the state variables of the component. 
+        These values can be referenced within the template and change reactively when updated.
+       Use case: Store properties that define the component’s initial state or track user inputs and interactions.
+    Methods:
+        Purpose: Define functions that can perform actions or trigger behavior.
+        Definition: methods are functions that can be called inside templates or from other parts of the component to perform actions, but unlike computed, they are not cached and will run every time they are invoked.
+        Use case: Handle user interactions, such as button clicks, or any custom logic.
+
+data stores the state.
+computed derives state based on other values.
+methods perform actions or logic.
+
+
+In summary, reactivity in Vue means that the framework automatically tracks changes to your data 
+and efficiently updates the user interface in response to those changes, minimizing manual DOM manipulation.

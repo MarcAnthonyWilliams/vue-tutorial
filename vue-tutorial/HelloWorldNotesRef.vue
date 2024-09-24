@@ -33,7 +33,9 @@
 <script>
 export default {
   name: 'HelloWorld',
-  props: {
+  props: { // Props are literally the name. 
+    //Propping variables or anything else to be used by other files/functions
+    //We're telling App.vue "Hey, I'm passing you msg which is supposed to be a string."
     msg: String
   }
 }
