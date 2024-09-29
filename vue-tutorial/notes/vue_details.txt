@@ -20,3 +20,15 @@ methods perform actions or logic.
 
 In summary, reactivity in Vue means that the framework automatically tracks changes to your data 
 and efficiently updates the user interface in response to those changes, minimizing manual DOM manipulation.
+
+Lifecycle Hook:
+    A function built into vue that runs at different stages of the components lifecycle.
+
+    Mounted(): Runs whenever we first load the component. 
+        So when we mount blank component, do blank. Look at the follower thing. 
+        As soon as it exists it runs the function
+
+    Watch(): Watch a data point, and when it changes run blank. 
+Props are literally the name. 
+    Propping variables or anything else to be used by other files/functions
+    Passing data INTO a component from its parent. This can be variables, objects, or functions
